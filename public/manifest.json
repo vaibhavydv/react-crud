@@ -1,6 +1,6 @@
 {
-  "short_name": "CRUD",
-  "name": "CRUD App",
+  "short_name": "FC",
+  "name": "Fav Contacts",
   "icons": [
     {
       "src": "favicon.ico",

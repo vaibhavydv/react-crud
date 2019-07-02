@@ -13,6 +13,7 @@ const AddUserForm = props => {
   }
 
     return (   
+        <div>
         <form
         onSubmit={event => {
             event.preventDefault()
@@ -28,6 +29,7 @@ const AddUserForm = props => {
             <input type="text" name="mobile" value={user.mobile} onChange={handleInputChange}/>
             <button>Add User</button>
         </form>
+        </div>
     )
 }
 

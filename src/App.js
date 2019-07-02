@@ -7,7 +7,7 @@ const App = () => {
 
   // Data
   const usersData = [
-    { id : 1, name:'Vaibhav', mobile:'+91-945-776-8999' },
+    { id: 1, name:'Vaibhav', mobile:'+91-945-776-8999' },
     { id: 2, name:'Rahul', mobile: '+91-889-564-7798'},
     { id: 3, name:'Raman', mobile: '+91-256-887-5564'},
   ]
@@ -46,7 +46,7 @@ const App = () => {
  
   return (
     <div className="container">
-      <h1>CRUD</h1>
+      <h1>Fav Contacts</h1>
       <hr/>
       <div className="flex-row">
         <div className="flex-large">
@@ -73,6 +73,9 @@ const App = () => {
           <UserTable users={users} editRow={editRow} deleteUser={deleteUser} />
         </div>
       </div>
+      <br/>
+      <hr/>
+      <p>&copy; 2019 | Vaibhav Yadav</p>
     </div>
   )
 }
