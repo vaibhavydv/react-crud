@@ -26,7 +26,7 @@ const AddUserForm = props => {
             <label>Name</label>
             <input type="text" name="name" value={user.name} onChange={handleInputChange} />
             <label>Mobile</label>
-            <input type="text" name="mobile" value={user.mobile} onChange={handleInputChange}/>
+            <input type="number" name="mobile" value={user.mobile} onChange={handleInputChange}/>
             <button>Add User</button>
         </form>
         </div>
